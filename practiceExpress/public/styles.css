@@ -1,0 +1,49 @@
+body{
+  color: black;
+  background-image: url('https://media1.tenor.com/images/c2c77935be53f33e5fa8b6e8048847dd/tenor.gif?itemid=5032848');
+}
+h3{
+  margin-top: 40px;
+  font-size: 40px;
+  margin-left: 40%;
+}
+header h2{
+  margin: 0%;
+}
+h2{
+  margin-left: 40%;
+}
+header{
+  width: 100%;
+  text-align: center;
+}
+img{
+  width: 55%;
+  height: 300px;
+  margin-left: 20%;
+}
+.troll{
+  width: 45%;
+  height: 200px;
+  margin-left: 27%;
+}
+section{
+  background-color: black;
+  color: white;
+  width: 70%;
+  margin-left: 15%;
+}
+form{
+  margin-left: 20%;
+}
+input{
+  width: 70%;
+  height: 60px;
+  font-size: 55px;
+}
+li{
+  font-size: 30px;
+  list-style: none;
+  width: 100%;
+  text-align: center;
+}

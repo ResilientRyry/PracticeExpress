@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>You Troll or nah?</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Trolls Anonymous</h1>
+    <h2>Why you trollin so hard?</h2>
+  </header>
+
+  <img src="https://boygeniusreport.files.wordpress.com/2012/06/trollface2-e1339506947642.jpg?quality=98&strip=all" alt="">
+
+  <section>
+    <img src="https://s3.amazonaws.com/beatstarsdata/b.user.data/u/undesrscoe-334532/gfx/cover-artwork/915952_med_.jpg" class="troll" alt="">
+    <h3>Messages</h3>
+    <ul class="messages">
+    <% for(var i=0; i<messages.length; i++) {%>
+      <li class="message">
+        <span><%= messages[i].name %></span>
+        <span><%= messages[i].msg %></span>
+        <span><%= messages[i].thumbUp %></span>
+        <span><%= messages[i].thumbDown %></span>
+        <span><i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
+        <span><i class="fa fa-thumbs-down" aria-hidden="true"></i></span>
+        <span><i class="fa fa-trash" aria-hidden="true"></i></span>
+      </li>
+    <% } %>
+    </ul>
+
+    <h2>Add a message</h2>
+
+    <form action="/messages" method="POST">
+      <!-- <input type="text" placeholder="name" name="name"> -->
+      <input type="text" placeholder="message" name="msg">
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
