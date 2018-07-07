@@ -1,6 +1,6 @@
 # PracticeExpress
 
-![Practice my Express](public/trollface.jpg)
+![Practice my Express](practiceExpress/public/trollface.jpg)
 
 Learned how to use Express and mondoDB and this is my first shot at a simple Express application.
 
